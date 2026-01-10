@@ -179,6 +179,21 @@ section#research ul li::before {
     white-space: nowrap;
 }
 
+/* Talks */
+.talks-list li {
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+
+.talks-list li::before {
+    display: none;
+}
+
+.talk-info {
+    color: #555;
+    font-size: 0.95em;
+}
+
 /* Role descriptions */
 .role-description {
     color: #555;
