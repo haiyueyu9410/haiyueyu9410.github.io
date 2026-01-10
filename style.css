@@ -153,11 +153,19 @@ section#research ul li::before {
 /* Experience and Education */
 .experience-list li,
 .education-list li {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    display: block;
     padding-left: 0;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.experience-list li > strong,
+.education-list li > strong {
+    display: inline;
+}
+
+.experience-list li > .date,
+.education-list li > .date {
+    float: right;
 }
 
 .experience-list li::before,
@@ -169,6 +177,30 @@ section#research ul li::before {
     color: #666;
     font-size: 0.9em;
     white-space: nowrap;
+}
+
+/* Role descriptions */
+.role-description {
+    color: #555;
+    font-size: 0.9em;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+/* Skills */
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skill-category {
+    color: #444;
+    font-size: 0.95em;
+}
+
+.skill-category strong {
+    color: #222;
 }
 
 /* Footer */
