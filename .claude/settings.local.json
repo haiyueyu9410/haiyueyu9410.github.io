@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:scholar.google.com)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nUpdate website with full profile and research papers\n\n- Add profile photo\n- Update About section with LLM/agent experience at Snowflake\n- Add complete work history \\(Snowflake, Two Sigma, SIG\\)\n- Add education \\(Princeton PhD, HKU BA\\)\n- Update publications section with all first-author papers\n- Add Journal of Finance forthcoming publication\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git config:*)",
+      "WebFetch(domain:www.linkedin.com)"
+    ]
+  }
+}
